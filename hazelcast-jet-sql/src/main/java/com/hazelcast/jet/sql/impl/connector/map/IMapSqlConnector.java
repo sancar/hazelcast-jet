@@ -60,7 +60,8 @@ public class IMapSqlConnector implements SqlConnector {
         this.metadataResolvers = new KvMetadataResolvers(
                 KvMetadataJavaResolver.INSTANCE,
                 MetadataPortableResolver.INSTANCE,
-                MetadataJsonResolver.INSTANCE
+                MetadataJsonResolver.INSTANCE,
+                MetadataCompactResolver.INSTANCE
         );
     }
 

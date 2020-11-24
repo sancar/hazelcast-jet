@@ -128,6 +128,13 @@ public interface SqlConnector {
      */
     String OPTION_OBJECT_NAME = "objectName";
 
+
+    String COMPACT_FORMAT = "compact";
+    String OPTION_KEY_COMPACT_NAME = "keyCompactName";
+    String OPTION_VALUE_COMPACT_NAME = "valueCompactName";
+    String OPTION_KEY_COMPACT_VERSION = "keyCompactVersion";
+    String OPTION_VALUE_COMPACT_VERSION = "valueCompactVersion";
+
     /**
      * Return the name of the connector as seen in the {@code TYPE} clause in
      * the {@code CREATE EXTERNAL MAPPING} command.
